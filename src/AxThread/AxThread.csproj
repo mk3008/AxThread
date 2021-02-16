@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="AxProcess.cs" />
+    <Compile Remove="IThread.cs" />
+    <Compile Remove="IThreadExtension.cs" />
+    <Compile Remove="ParallelThread.cs" />
+    <Compile Remove="Process.cs" />
+    <Compile Remove="RootBatch.cs" />
+    <Compile Remove="ThreaResult.cs" />
+  </ItemGroup>
+</Project>
